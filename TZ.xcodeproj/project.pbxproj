@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF1C2110181324D700256372 /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1C210F181324D700256372 /* PasswordViewController.m */; };
+		AF1C211318133CF100256372 /* UsernameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1C211218133CF100256372 /* UsernameViewController.m */; };
 		AFBF316E1812F900004ADFC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF316D1812F900004ADFC1 /* Foundation.framework */; };
 		AFBF31701812F900004ADFC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF316F1812F900004ADFC1 /* CoreGraphics.framework */; };
 		AFBF31721812F900004ADFC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF31711812F900004ADFC1 /* UIKit.framework */; };
@@ -14,14 +16,16 @@
 		AFBF317A1812F900004ADFC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF31791812F900004ADFC1 /* main.m */; };
 		AFBF317E1812F900004ADFC1 /* TZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF317D1812F900004ADFC1 /* TZAppDelegate.m */; };
 		AFBF31811812F900004ADFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBF317F1812F900004ADFC1 /* Main.storyboard */; };
-		AFBF31841812F900004ADFC1 /* TZMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF31831812F900004ADFC1 /* TZMasterViewController.m */; };
-		AFBF31871812F900004ADFC1 /* TZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF31861812F900004ADFC1 /* TZDetailViewController.m */; };
 		AFBF31891812F900004ADFC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBF31881812F900004ADFC1 /* Images.xcassets */; };
 		AFBF31901812F900004ADFC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF318F1812F900004ADFC1 /* XCTest.framework */; };
 		AFBF31911812F900004ADFC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF316D1812F900004ADFC1 /* Foundation.framework */; };
 		AFBF31921812F900004ADFC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF31711812F900004ADFC1 /* UIKit.framework */; };
 		AFBF319A1812F900004ADFC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFBF31981812F900004ADFC1 /* InfoPlist.strings */; };
 		AFBF319C1812F900004ADFC1 /* TZTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF319B1812F900004ADFC1 /* TZTests.m */; };
+		AFBF31A71812F983004ADFC1 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF31A61812F983004ADFC1 /* SettingsViewController.m */; };
+		AFBF31AA181309A6004ADFC1 /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF31A9181309A6004ADFC1 /* EmailViewController.m */; };
+		AFBF31AD18130E60004ADFC1 /* UserDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF31AC18130E60004ADFC1 /* UserDataController.m */; };
+		AFBF31B0181314C5004ADFC1 /* MobileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF31AF181314C5004ADFC1 /* MobileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF1C210E181324D700256372 /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		AF1C210F181324D700256372 /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		AF1C211118133CF100256372 /* UsernameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsernameViewController.h; sourceTree = "<group>"; };
+		AF1C211218133CF100256372 /* UsernameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsernameViewController.m; sourceTree = "<group>"; };
 		AFBF316A1812F900004ADFC1 /* TZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBF316D1812F900004ADFC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AFBF316F1812F900004ADFC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +54,20 @@
 		AFBF317C1812F900004ADFC1 /* TZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZAppDelegate.h; sourceTree = "<group>"; };
 		AFBF317D1812F900004ADFC1 /* TZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZAppDelegate.m; sourceTree = "<group>"; };
 		AFBF31801812F900004ADFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AFBF31821812F900004ADFC1 /* TZMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZMasterViewController.h; sourceTree = "<group>"; };
-		AFBF31831812F900004ADFC1 /* TZMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMasterViewController.m; sourceTree = "<group>"; };
-		AFBF31851812F900004ADFC1 /* TZDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZDetailViewController.h; sourceTree = "<group>"; };
-		AFBF31861812F900004ADFC1 /* TZDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZDetailViewController.m; sourceTree = "<group>"; };
 		AFBF31881812F900004ADFC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AFBF318E1812F900004ADFC1 /* TZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBF318F1812F900004ADFC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AFBF31971812F900004ADFC1 /* TZTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TZTests-Info.plist"; sourceTree = "<group>"; };
 		AFBF31991812F900004ADFC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFBF319B1812F900004ADFC1 /* TZTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZTests.m; sourceTree = "<group>"; };
+		AFBF31A51812F983004ADFC1 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		AFBF31A61812F983004ADFC1 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		AFBF31A8181309A6004ADFC1 /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		AFBF31A9181309A6004ADFC1 /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		AFBF31AB18130E60004ADFC1 /* UserDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataController.h; sourceTree = "<group>"; };
+		AFBF31AC18130E60004ADFC1 /* UserDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDataController.m; sourceTree = "<group>"; };
+		AFBF31AE181314C5004ADFC1 /* MobileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileViewController.h; sourceTree = "<group>"; };
+		AFBF31AF181314C5004ADFC1 /* MobileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +130,18 @@
 				AFBF317C1812F900004ADFC1 /* TZAppDelegate.h */,
 				AFBF317D1812F900004ADFC1 /* TZAppDelegate.m */,
 				AFBF317F1812F900004ADFC1 /* Main.storyboard */,
-				AFBF31821812F900004ADFC1 /* TZMasterViewController.h */,
-				AFBF31831812F900004ADFC1 /* TZMasterViewController.m */,
-				AFBF31851812F900004ADFC1 /* TZDetailViewController.h */,
-				AFBF31861812F900004ADFC1 /* TZDetailViewController.m */,
+				AFBF31AB18130E60004ADFC1 /* UserDataController.h */,
+				AFBF31AC18130E60004ADFC1 /* UserDataController.m */,
+				AFBF31A51812F983004ADFC1 /* SettingsViewController.h */,
+				AFBF31A61812F983004ADFC1 /* SettingsViewController.m */,
+				AFBF31A8181309A6004ADFC1 /* EmailViewController.h */,
+				AFBF31A9181309A6004ADFC1 /* EmailViewController.m */,
+				AFBF31AE181314C5004ADFC1 /* MobileViewController.h */,
+				AFBF31AF181314C5004ADFC1 /* MobileViewController.m */,
+				AF1C210E181324D700256372 /* PasswordViewController.h */,
+				AF1C210F181324D700256372 /* PasswordViewController.m */,
+				AF1C211118133CF100256372 /* UsernameViewController.h */,
+				AF1C211218133CF100256372 /* UsernameViewController.m */,
 				AFBF31881812F900004ADFC1 /* Images.xcassets */,
 				AFBF31741812F900004ADFC1 /* Supporting Files */,
 			);
@@ -257,8 +277,12 @@
 			files = (
 				AFBF317E1812F900004ADFC1 /* TZAppDelegate.m in Sources */,
 				AFBF317A1812F900004ADFC1 /* main.m in Sources */,
-				AFBF31841812F900004ADFC1 /* TZMasterViewController.m in Sources */,
-				AFBF31871812F900004ADFC1 /* TZDetailViewController.m in Sources */,
+				AF1C211318133CF100256372 /* UsernameViewController.m in Sources */,
+				AFBF31AD18130E60004ADFC1 /* UserDataController.m in Sources */,
+				AF1C2110181324D700256372 /* PasswordViewController.m in Sources */,
+				AFBF31A71812F983004ADFC1 /* SettingsViewController.m in Sources */,
+				AFBF31B0181314C5004ADFC1 /* MobileViewController.m in Sources */,
+				AFBF31AA181309A6004ADFC1 /* EmailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +491,7 @@
 				AFBF31A11812F900004ADFC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFBF31A21812F900004ADFC1 /* Build configuration list for PBXNativeTarget "TZTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +500,7 @@
 				AFBF31A41812F900004ADFC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

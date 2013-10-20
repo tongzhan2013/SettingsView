@@ -1,5 +1,5 @@
 //
-//  TZMasterViewController.h
+//  UsernameViewController.h
 //  TZ
 //
 //  Created by Tong Zhan on 10/19/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TZMasterViewController : UITableViewController
+@interface UsernameViewController : UIViewController <UITextFieldDelegate>
 
 @end
